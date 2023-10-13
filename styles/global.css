@@ -469,6 +469,25 @@ text-align: center;
     font-size: 40px;
 }
 
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.formulario form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--cor-btn-fonte);
+    width:500px ;
+    box-shadow: rgba(0, 0, 0, 0.1) ;
+}
+
+
 
 
 
